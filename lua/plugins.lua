@@ -10,6 +10,6 @@ vim.pack.add({
 	'https://github.com/mason-org/mason.nvim',
 	'https://github.com/mason-org/mason-lspconfig.nvim',
 	'https://github.com/nvim-treesitter/nvim-treesitter',
-	'https://github.com/angribot/nvim-treesitter-sgconf',
+	'https://github.com/angribot/surge-lsp.nvim',
 	'https://github.com/folke/snacks.nvim',
 })

@@ -42,7 +42,7 @@ pcall(vim.cmd.packadd, 'nohlsearch')
 pcall(vim.cmd.packadd, 'nvim.undotree')
 pcall(vim.cmd.packadd, 'nvim.difftool')
 pcall(vim.cmd.packadd, 'nvim-lspconfig')
-pcall(vim.cmd.packadd, 'nvim-treesitter-sgconf')
+pcall(vim.cmd.packadd, 'surge-lsp.nvim')
 vim.defer_fn(
 	function()
 		vim.lsp.enable({
