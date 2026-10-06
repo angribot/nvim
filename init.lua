@@ -51,6 +51,7 @@ vim.defer_fn(
 			'lua_ls',
 			'rust_analyzer',
 			'jsonls',
+			'surge',
 			'tombi',
 			'yamlls',
 		})
