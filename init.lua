@@ -181,6 +181,7 @@ vim.api.nvim_create_autocmd('UIEnter', {
 			require('mini.diff').setup({ view = { priority = 1 } })
 			require('mini.extra').setup()
 			require('mini.files').setup({ windows = { preview = true } })
+			require('mini.icons').setup()
 			require('mini.indentscope').setup({ symbol = '|' })
 			require('mini.pick').setup()
 			require('mini.snippets').setup()
